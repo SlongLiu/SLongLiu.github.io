@@ -55,28 +55,32 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="URL: https://arxiv.org/abs/1908.01114 | ICCV2019 TL;DRattention会增加特征之间的相似性，正交化可以降低相似性。作者提出了attention方法和正交正则化的方法同时使用，提升reid效果。 ![image](ABD-Net Attentive but Diverse Person Re-Identification.assets/4d2">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/09/30/ABD-Net Attentive but Diverse Person Re-Identification/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="URL: https://arxiv.org/abs/1908.01114 | ICCV2019 TL;DRattention会增加特征之间的相似性，正交化可以降低相似性。作者提出了attention方法和正交正则化的方法同时使用，提升reid效果。 ![image](ABD-Net Attentive but Diverse Person Re-Identification.assets/4d2">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-09-30T11:45:04.597Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
-  <link rel="canonical" href="http://yoursite.com/">
+<meta name="twitter:description" content="URL: https://arxiv.org/abs/1908.01114 | ICCV2019 TL;DRattention会增加特征之间的相似性，正交化可以降低相似性。作者提出了attention方法和正交正则化的方法同时使用，提升reid效果。 ![image](ABD-Net Attentive but Diverse Person Re-Identification.assets/4d2">
+  <link rel="canonical" href="http://yoursite.com/2019/09/30/ABD-Net Attentive but Diverse Person Re-Identification/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false,
+    isHome: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>Hexo</title>
+  <title> | Hexo</title>
   
 
 
@@ -184,12 +188,13 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
+
   <div id="posts" class="posts-expand">
-        <article itemscope itemtype="http://schema.org/Article">
+      <article itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block home">
+  <div class="post-block post">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/30/ABD-Net Attentive but Diverse Person Re-Identification/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -203,8 +208,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2019/09/30/ABD-Net Attentive but Diverse Person Re-Identification/" class="post-title-link" itemprop="url">Untitled</a>
+
           
         </h1>
 
@@ -238,7 +242,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>URL: <a href="https://arxiv.org/abs/1908.01114" target="_blank" rel="noopener">https://arxiv.org/abs/1908.01114</a> | ICCV2019</p>
+        <p>URL: <a href="https://arxiv.org/abs/1908.01114" target="_blank" rel="noopener">https://arxiv.org/abs/1908.01114</a> | ICCV2019</p>
 <h2 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL;DR"></a>TL;DR</h2><p>attention会增加特征之间的相似性，正交化可以降低相似性。作者提出了attention方法和正交正则化的方法同时使用，提升reid效果。</p>
 <p>![image](ABD-Net Attentive but Diverse Person Re-Identification.assets/4d281201446e5c91923cd502b5073865d9e3442e.png)</p>
 <h2 id="Algorithm-Model"><a href="#Algorithm-Model" class="headerlink" title="Algorithm/Model"></a>Algorithm/Model</h2><p><strong>Channel Attention Module (CAM)</strong><br>![image](ABD-Net Attentive but Diverse Person Re-Identification.assets/8581893b368f4b7f201ca4c69594305c15fd93bd.png)<br>算了通道间两两相关性，和原始特征矩阵做了矩阵乘法，数学结果如下：<br>![image](ABD-Net Attentive but Diverse Person Re-Identification.assets/ccc7bc41651d46d0eed64d9e05904d3e83eccf2b.png)<br><strong>Position Attention Module (PAM)</strong><br>![image](ABD-Net Attentive but Diverse Person Re-Identification.assets/61e9fd4e6809c1ee243d8228e13ea4dcbddd97c6.png)<br>和CAM差不多，区别在于1.先做了一层卷积和RELU，2.算的是像素之间两两相似性</p>
@@ -254,108 +258,43 @@
 <p>不同特征间相关性降低</p>
 <p>![image](ABD-Net Attentive but Diverse Person Re-Identification.assets/8766310e443e1465a05622387e4bcf34f7200022.png)![image](ABD-Net Attentive but Diverse Person Re-Identification.assets/4b0bf9b53f29e885989b45e31226f50fb0558766.png)</p>
 
-        
-      
     </div>
 
     
     
     
+        
+      
+
       <footer class="post-footer">
-          <div class="post-eof"></div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+                <a href="/2019/09/30/hello-world/" rel="next" title="Hello World">
+                  <i class="fa fa-chevron-left"></i> Hello World
+                </a>
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+            </div>
+          </div>
         
       </footer>
+    
   </div>
   
   
   
   </article>
 
-    
-        <article itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block home">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/09/30/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2019/09/30/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-          
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              
-                
-              
-
-              <time title="Created: 2019-09-30 16:23:55" itemprop="dateCreated datePublished" datetime="2019-09-30T16:23:55+08:00">2019-09-30</time>
-            </span>
-          
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-          <div class="post-eof"></div>
-        
-      </footer>
   </div>
-  
-  
-  
-  </article>
-
-    
-  </div>
-
-  
 
 
           </div>
@@ -374,6 +313,11 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
@@ -386,6 +330,8 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#TL-DR"><span class="nav-number">1.</span> <span class="nav-text">TL;DR</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Algorithm-Model"><span class="nav-number">2.</span> <span class="nav-text">Algorithm/Model</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实验"><span class="nav-number">3.</span> <span class="nav-text">实验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可视化结果"><span class="nav-number">4.</span> <span class="nav-text">可视化结果</span></a></li></ol></div>
+        
       </div>
       <!--/noindex-->
 
